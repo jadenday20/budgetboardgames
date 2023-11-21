@@ -5,7 +5,7 @@ let NavItems = ["Shop", "Cart", "About", "Contact"]
 
 export default function Navbar() {
     return (
-      <nav className="flex items-center justify-evenly gap-5">
+      <nav className="flex items-center justify-evenly gap-5 flex-col md:flex-row">
         {NavItems.map(item => {
       return (
         <NavItem 
