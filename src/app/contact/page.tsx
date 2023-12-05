@@ -11,8 +11,8 @@ export default function Contact() {
         <main className="flex flex-col items-center justify-between p-16">
           <h2 className="text-3xl font-bold m-4">Contact</h2>
           <BackToHome/>
-        <Footer/>
         </main>
+        <Footer/>
       </body>
     )
   }
